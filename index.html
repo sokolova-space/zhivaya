@@ -152,7 +152,10 @@
         .btn-secondary:hover { background: rgba(62, 57, 53, 0.05); }
 
         /* Блок 2: Боли */
-        .pain-section { background: #FAF7F2; }
+        .pain-section { background: #FAF7F2; 
+					  background-image: url(image/IMG_8553.jpg); background-position: center center; background-size: cover; background-repeat: no-repeat; min-height: 794px; height: 794px; display: flex; align-items: center; padding: 0;
+					  
+					  }
         .pain-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 40px; margin-top: 250px; }
         .pain-card { padding: 10px 0; border-left: 1px solid var(--color-sepia); padding-left: 20px; background: rgba(253, 252, 250, 0.7);}
         .pain-card strong { display: block; font-family: 'Playfair Display', serif; font-size: 1.3rem; font-style: italic; margin-bottom: 10px; }
@@ -200,7 +203,7 @@
 				height: auto !important; 
 				min-height: auto !important; 
 				background-size: cover !important; /* Вместо 100% 100% картинка красиво заполнит блок без искажений */
-				background-position: left center !important;
+				background-position: left !important;
 				padding: 30px 0 !important; /* Удобные отступы для мобильного экрана */
 			}
         }
@@ -261,7 +264,7 @@
         </section>
 
         <!-- 2. Блок-фильтр (Боли) -->
-		<section class="pain-section notebook-lines" id="about" style="background-image: url(image/IMG_8553.jpg); background-position: center center; background-size: 100% 100%; background-repeat: no-repeat; min-height: 794px; height: 794px; display: flex; align-items: center; padding: 0;">			 <div class="container">
+		<section class="pain-section notebook-lines" id="about">			 <div class="container">
 				 <h2 class="text-center font-serif" style="font-size: 2.2rem; margin-bottom: 10px; font-style: italic;">Вам знакомо это состояние?</h2>
 				 <p class="text-center font-serif" style="font-style: italic; opacity: 0.7; font-size: 0.95rem; color: var(--color-sepia); margin-bottom: 40px;">Когда жизнь превращается в бесконечную рутину...</p>
 				 
